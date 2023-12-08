@@ -85,7 +85,6 @@ public class Day1 {
                     break;
                 }
                 String substr = ele.substring(0, j + 1);
-//                System.out.println(substr);
                 int k = 0;
                 for (String lett : letters) {
                     if (substr.endsWith(lett)) {
@@ -102,7 +101,6 @@ public class Day1 {
 
         int sum = 0;
         for (int k = 0; k < size; k++) {
-//            System.out.println(firstDigit[k] + " + " + lastDigit[k]);
             sum += firstDigit[k] * 10 + lastDigit[k];
         }
         System.out.println(sum);
