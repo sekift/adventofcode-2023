@@ -2,7 +2,7 @@ package com.sekift.www;
 
 import java.util.List;
 
-public class Day0 {
+public class Day {
 
     public void star1() {
         List<String> res = InputPuzzle.readFileByLines("./day1");
@@ -13,7 +13,7 @@ public class Day0 {
     }
 
     public static void main(String[] args) {
-        Day0 day = new Day0();
+        Day day = new Day();
         day.star1();
         day.star2();
     }
